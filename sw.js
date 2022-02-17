@@ -5,7 +5,8 @@ self.addEventListener("install", e => {
             [
                 "./",
                 "./src/master.css",
-                "./images/"]);
+                "./images/",
+            "./images/logo192.png"]);
     })
     );
 });
