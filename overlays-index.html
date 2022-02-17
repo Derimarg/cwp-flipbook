@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme_color" content="#009578">
+    <title>CWP Flipbook</title>
+    <link rel="stylesheet" href="src/master.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="images/logo192.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div id="text-content"></div>
+    <script src="src/index.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#text-content').load('./src/flipbooks/overlays.htm');
+        });
+    </script>
+</body>
+
+</html>
